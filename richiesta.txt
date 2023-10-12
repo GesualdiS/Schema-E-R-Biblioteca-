@@ -1,0 +1,19 @@
+BIBLIOTECA
+
+Realizza uno schema E/R per la gestione di una biblioteca, che conterrà tutte le informazioni
+riguardanti i volumi, gli utenti e i prestiti.
+La biblioteca gestisce un certo numero di libri, di ognuno dei quali vogliamo poter conoscere il
+codice ISBN; il titolo, la lingua in cui è scritto, l’editore e l’anno di pubblicazione, oltre a tutti gli
+autori (che possono essere più di uno).
+Di ciascun autore desideriamo conservare i principali dati anagrafici (nome, cognome, data e luogo
+di nascita, eccetera.) oltre a una breve biografia.
+A ogni libro è associata una categoria. Di ogni libro possono esistere più copie, che condividono la
+stessa collocazione (sono fisicamente poste una di fianco all’altra). L’indicazione della collocazione
+di un libro è suddivisa in tre parti: sezione, numero di scaffale e numero di posto; ad esempio:
+sezione informatica, scaffale 3, posto 56.
+Gli utenti della biblioteca sono registrati nella base di dati tramite i loro dati anagrafici. A ciascun di
+loro, inoltre, è associato un numero di tessera e la data nella quale si sono registrati presso la
+biblioteca. Quando un utente ottiene un libro in prestito la base di dati registra la data di inizio
+prestito, gli estremi del libro prelevato e dell’utente che lo ha preso. Quando il libro viene
+riconsegnato, la base di dati completa le informazioni sul prestito inserendo anche la data di
+riconsegna
